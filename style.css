@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f4f6f8;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app {
+  background: #fff;
+  width: 360px;
+  padding: 25px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  margin: 15px 0;
+}
+
+.panel {
+  display: none;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.admin {
+  background: #e8f0fe;
+}
+
+.user {
+  background: #e6fffa;
+}
