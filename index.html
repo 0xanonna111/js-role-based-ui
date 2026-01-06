@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Role Based UI</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="app">
+    <h2>Role Based UI</h2>
+
+    <select id="role" onchange="changeRole()">
+      <option value="">Select Role</option>
+      <option value="admin">Admin</option>
+      <option value="user">User</option>
+    </select>
+
+    <div class="panel admin" id="adminPanel">
+      <h3>Admin Panel</h3>
+      <p>✔ Manage users</p>
+      <p>✔ View reports</p>
+      <p>✔ System settings</p>
+    </div>
+
+    <div class="panel user" id="userPanel">
+      <h3>User Dashboard</h3>
+      <p>✔ View profile</p>
+      <p>✔ Update info</p>
+      <p>✔ Browse content</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
